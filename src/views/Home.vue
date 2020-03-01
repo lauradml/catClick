@@ -1,18 +1,20 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <button @click="sendSiames">Siames</button>
+    <button @click="sendPersas">Persa</button>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+  name: "Home",
+  methods: {
+    sendSiames() {
+      this.$router.push("/Siameses");
+    },
+    sendPersas() {
+      this.$router.push("/Persas");
+    }
   }
-}
+};
 </script>
