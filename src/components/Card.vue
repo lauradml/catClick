@@ -1,8 +1,9 @@
+
 <template>
-  <div @click="add" class="card">
-    <img :src="img" />
+  <div>
+    <img @click="add" class="card" :src="img" />
     <h2>{{name}}</h2>
-    <span>Likes: {{result}}</span>
+    <span>Clicks: {{result}}</span>
   </div>
 </template>
 <script>

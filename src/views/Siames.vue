@@ -1,3 +1,6 @@
+// ### Paso 2:
+// La aplicación debe mostrar 2 gatos.
+// Para cada gato se debe mostrar: foto, nombre, número de clicks sobre el gato.
 <template>
   <div>
     <ul class="list">
